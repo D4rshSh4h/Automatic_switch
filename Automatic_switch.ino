@@ -23,7 +23,7 @@ int counter = 0;
 char customKey;
 
 
-
+//Making a keypad
 Keypad customKeypad = Keypad( makeKeymap(hexaKeys), rowPins, colPins, ROWS, COLS); 
 
 void setup(){
