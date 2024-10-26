@@ -7,4 +7,4 @@ Meant to work with Arduino, built with Arduino UNO
 
 ## Credits
 - Keypad control and code from the Arduino Keypad library (Authors: Mark Stanley, Alexander Brevig)
-- Servo control from the Arduino Servo library (*link: * [text](https://www.arduino.cc/reference/en/libraries/servo/))
+- Servo control from the Arduino Servo library (*link:* https://www.arduino.cc/reference/en/libraries/servo/)
