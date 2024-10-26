@@ -3,6 +3,25 @@
 #include <string.h>
 #include <stdlib.h>
 #include <Servo.h>
+
+
+/**
+ * Initializes the Servo motor and keypad.
+ *
+ * @param myservo Servo object to control the motor.
+ * @param ROWS Number of rows in the keypad.
+ * @param COLS Number of columns in the keypad.
+ * @param hexaKeys 2D array representing the keys on the keypad.
+ * @param rowPins Array of pins connected to the rows of the keypad.
+ * @param colPins Array of pins connected to the columns of the keypad.
+ * @param string Buffer to store the input string.
+ * @param mins Buffer to store the minutes part of the input string.
+ * @param secs Buffer to store the seconds part of the input string.
+ * @param inputMin Integer to store the converted minutes from the input string.
+ * @param inputSec Integer to store the converted seconds from the input string.
+ * @param counter Counter to keep track of the number of digits entered.
+ * @param customKey Variable to store the key pressed on the keypad.
+ */
 Servo myservo;
 const byte ROWS = 4; 
 const byte COLS = 4; 
@@ -21,6 +40,8 @@ int inputMin;
 int inputSec;
 int counter = 0;
 char customKey;
+
+
 
 
 //Making a keypad
